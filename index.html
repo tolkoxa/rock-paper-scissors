@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" charset="utf-8"></script>
+
+    <title>КАМЕНЬ, НОЖНИЦЫ, БУМАГА</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header class="header-txt">
+            <h1>камень, ножницы, бумага</h1>
+            <p>Суть игры проста &#151; выбирай свой вариант, а компьютер &#151; свой.</p>
+            <p> Камень затупляет ножницы. Ножницы разрезают бумагу. Бумага заворачивает камень
+            </p>
+            <h2>Делай свой выбор</h2>
+        </header>
+        <main class="game">
+            <button class="btn-img"><img src="img/choice-0.png" onclick="human_choice (0)" width="100px" height="auto"></button>
+            <button class="btn-img"><img src="img/choice-1.png" onclick="human_choice (1)" width="100px" height="auto"></button>
+            <button class="btn-img"><img src="img/choice-2.png" onclick="human_choice (2)" width="100px" height="auto"></button>
+        </main>
+        <div class="result">
+            <div class="result-human">
+                <span class="human-text">твой выбор</span><br>
+                <img src="" width="100px" height="auto" id="result-h">
+            </div>
+            <div id="result-txt" class="result-text">
+                <p class="result-tltle" id="result-name"></p>
+            </div>
+            <div class="result-comp">
+                <span class="human-text">выбор компьютера</span><br>
+                <img src="" width="100px" height="auto" id="result-c">
+            </div>
+        </div>
+        <div class="quote">
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+    </script>
+</body>
+
+</html>
